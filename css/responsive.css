@@ -1,0 +1,240 @@
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+
+.video-area .hero .table {
+    margin: 0 auto 20px auto;
+}
+
+
+.play-video-item {
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+@media screen and (max-width: 767px) {	
+
+
+.hero-area1 .circle::after {
+    inset: -80px -200px;
+    font-size: 2.1em;
+}
+
+.hero-area1 .circle::before {
+    background-size: 350px;
+    bottom: -910px;
+    left: -300px;
+}
+
+.hero-area1 .circle {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 320px;
+    height: 320px;
+    text-align: center;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.hero-area1 .circle .img-area {
+    width: 320px;
+    height: 320px;
+}
+
+.hero-area1 .circle .img-area img {
+    margin: -145px 0 0 12px;
+}
+
+
+
+.hero-area div.text span {
+    font-size: 7em;
+}
+
+.hero-area div.text span:nth-child(1) {
+    font-size: 6em;
+}
+
+.video-area .hero .cell img {
+    width: 100%;
+}
+
+.video-area .hero .table {
+    width: 100%;
+    height: auto;
+    margin: 0 0 20px auto;
+}
+
+.play-video-item {
+    width: 100%;
+    height: auto;
+    background: transparent;
+}
+
+
+
+.modally .modally-content {
+    height: 100% !important;
+}
+
+.modally .iframe-landing {
+    height: 100%;
+}
+
+.modally .iframe-landing iframe,
+.modally .iframe-landing video {
+    display: block;
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+}
+
+
+.modally {
+    margin: 0px auto;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: calc(100% - 15px);
+    height: 400px !important;
+    background: white;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.05);
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 10px;
+    padding-top: 48px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+@media screen and (max-width: 576px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
